@@ -1,0 +1,7 @@
+[Unit]
+Description=Heartbeat para Healthchecks.io
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/heartbeat.sh
+
